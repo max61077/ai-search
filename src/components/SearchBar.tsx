@@ -8,7 +8,7 @@ interface IProps {
 
 const SearchBar: React.FC<IProps> = ({ setIsLoading, setPersonDetail }) => {
 
-    const [name, setName] = useState<string>('John')
+    const [name, setName] = useState<string>('')
 
     const getAge = useCallback(async () => {
         try {
